@@ -1,2 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
+/*------general setup-----*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --decoration-color-1: hsl(179, 62%, 43%);
+    --decoration-color-2: hsl(71, 73%, 54%);
+    --font-color-1: hsl(204, 43%, 93%);
+    --font-color-2: hsl(218, 22%, 67%);
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;    
+}
+
+/*-----individual setup------*/
+
