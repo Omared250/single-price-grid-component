@@ -29,6 +29,14 @@ main {
     box-shadow: 1px 1px 10px 1px hsl(223, 77%, 86%);
 }
 
+@media(max-width: 1024px) {
+    main {
+        top: 5%;
+        height: 470px;
+        grid-template-rows: 220px 250px;
+    }
+}
+
 /*------individual setups-----*/
 
 #box-information1 {
@@ -41,6 +49,7 @@ main {
 }
 
 #box-information1 h2 {
+    font-size: 28px;
     color: var(--decoration-color-1);
 }
 
@@ -54,6 +63,27 @@ main {
     font-weight: 700;
     color: var(--font-color-2);
     line-height: 30px;
+}
+
+@media(max-width: 1024px) {
+
+    #box-information1 {
+        padding: 10px 10px 0px 30px;
+    }
+
+    #box-information1 h2 {
+        font-size: 23px;
+    }
+
+    #box-information1 .p1 {
+        font-size: 15px;
+
+    }
+
+    #box-information1 .p2 {
+        font-size: 15px;
+
+    }
 }
 
 #box-information2 {
@@ -107,6 +137,26 @@ main {
     text-decoration: none;
 }
 
+@media(max-width: 1024px) {
+
+    #box-information2 {
+        padding: 10px 30px;
+    }
+
+    #box-information2 h2 {
+        font-size: 20px;
+    }
+
+    #box-information2 .p1 {
+        font-size: 25px;
+    }
+
+    #box-information2 .btn {
+        height: 40px;
+        margin-top: 20px;
+    }
+}
+
 #box-information3 {
     grid-column: 2/3;
     grid-row: 2/2;
@@ -122,6 +172,22 @@ main {
 #box-information3 p {
     color: var(--font-color-1);
     margin: 2px;
+}
+
+@media(max-width: 1024px) {
+
+    #box-information3 {
+        padding: 10px 30px;
+    }
+
+    #box-information3 h2 {
+        font-size: 20px;
+    }
+
+    #box-information3 p {
+        margin: 4px;
+        font-size: 15px;
+    }
 }
 
 
