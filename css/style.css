@@ -96,6 +96,10 @@ main {
     background-color: var(--decoration-color-2);
 }
 
+#box-information2 .btn:hover {
+    transform: scale(1.1);
+}
+
 #box-information2 a {
     color: var(--font-color-1);
     font-weight: 700;
