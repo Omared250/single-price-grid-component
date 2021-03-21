@@ -19,13 +19,13 @@ main {
     display: grid;
     position: absolute;
     width: 50%;
-    height: 70%;
+    height: 481px;
     left: 25%;
-    top: 15%;
-    font-size: 18px;
+    top: 12%;
+    font-size: 16px;
     border-radius: 8px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 230px 1fr;
+    grid-template-rows: 210px 271px;
     box-shadow: 1px 1px 10px 1px hsl(223, 77%, 86%);
 }
 
@@ -41,19 +41,16 @@ main {
 }
 
 #box-information1 h2 {
-    font-size: 30px;
     color: var(--decoration-color-1);
 }
 
 #box-information1 .p1 {
     font-weight: 700;
-    font-size: 17px;
     color: var(--decoration-color-2);
 
 }
 
 #box-information1 .p2 {
-    font-size: 19px;
     font-weight: 700;
     color: var(--font-color-2);
     line-height: 30px;
@@ -74,7 +71,7 @@ main {
 #box-information2 .p1 {
     margin: 0;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-style: 700;
 }
 
@@ -85,12 +82,11 @@ main {
 
 #box-information2 .p2 {
     color: var(--font-color-1);
-    font-size: 18px;
 }
 
 #box-information2 .btn {
     display: flex;
-    height: 55px;
+    height: 45px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
@@ -103,7 +99,7 @@ main {
 #box-information2 a {
     color: var(--font-color-1);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
